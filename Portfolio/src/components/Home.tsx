@@ -1,10 +1,12 @@
 function Home() {
   return (
     <div className="">
-      <section className="flex flex-col relative justify-center items-center bg-[url('https://rimsha-portfolio-puce.vercel.app/assets/Hero_image-bc0acZDJ.jpg')] h-screen bg-cover bg-center w-screen min-h-screen p-5">
+
+      <section className="flex flex-col relative justify-center items-center bg-[url('https://rimsha-portfolio-puce.vercel.app/assets/Hero_image-bc0acZDJ.jpg')] h-screen  bg-cover bg-center w-screen min-h-screen p-5">
+
         <main className="space-y-5">
           <div className="headings space-y-2">
-            <h1 className="text-6xl font-semibold text-white">
+            <h1 className="text-6xl font-semibold text-white text-center">
               Muhammad Suleman
             </h1>
             <p className="text-3xl text-white text-center">
@@ -17,6 +19,7 @@ function Home() {
             </button>
           </div>
         </main>
+
         <aside className="flex justify-between">
           <div className="fixed left-5 top-1/3 flex flex-col space-y-4">
             <a href="#">
@@ -174,7 +177,9 @@ function Home() {
           </div>
           <div></div>
         </aside>
+        
       </section>
+
     </div>
   );
 }

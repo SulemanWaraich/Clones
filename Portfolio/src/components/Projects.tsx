@@ -5,9 +5,9 @@ import CRUD2 from '../assets/CRUD2.png';
 function Projects() {
   return (
     <div className="w-screen min-h-screen p-5">
-      <h1 className="text-4xl border-b-4 pb-2 mb-10 mt-4 border-sky-400 mx-auto w-[200px] font-bold">My Projects</h1>
+      <h1 className="md:text-4xl text-3xl border-b-4 pb-2 mb-10 mt-4 border-sky-400 mx-auto md:w-[200px] w-[170px] font-bold">My Projects</h1>
 
-      <div className="grid grid-cols-3 gap-10 px-24 ">
+      <div className="grid md:grid-cols-3 grid-cols-1 gap-10 px-24 ">
 
         <div className='border-2 shadow-lg pb-4 rounded-lg h-72'>
           
