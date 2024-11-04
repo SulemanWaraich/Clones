@@ -5,7 +5,7 @@ import { SiTypescript, SiBootstrap, SiGit } from "react-icons/si";
 function Skill() {
   return (
     <div className="bg-gray-100 min-h-screen w-screen p-8">
-  <h1 className="md:text-4xl text-3xl  font-bold pb-2  mb-8 md:w-[160px] w-[140px] mx-auto border-b-4 border-sky-400">My Skills</h1>
+  <h1 className="md:text-4xl text-3xl 2xl:w-[200px] font-bold pb-2  mb-8 md:w-[160px] w-[140px] mx-auto border-b-4 border-sky-400">My Skills</h1>
 
   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
     {/* <!-- Skill Card Example --> */}
