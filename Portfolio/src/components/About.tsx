@@ -1,8 +1,8 @@
 function About() {
   return (
     <>
-      <div className="w-screen min-h-screen p-5">
-      <h1 className="md:text-4xl text-3xl border-b-4 pb-2 mb-10 mt-4 border-sky-400 mx-auto md:w-[170px] w-[150px] font-bold">About Me</h1>
+      <div className="w-screen min-h-screen p-5 ">
+      <h1 className="md:text-4xl text-3xl border-b-4 pb-2 mb-10 mt-4 border-sky-400 mx-auto 2xl:w-[200px] md:w-[180px] w-[150px] font-bold">About Me</h1>
 
       <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
 
