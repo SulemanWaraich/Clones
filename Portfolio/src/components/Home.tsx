@@ -1,4 +1,5 @@
 // import { ReactNode, useRef } from "react";
+import Resume from '../../public/Resume.pdf'
 
 
 interface HomeProps {
@@ -30,9 +31,11 @@ const Home: React.FC<HomeProps> = (
             </p>
           </div>
           <div className="btn flex justify-center">
+            <a href="../../public/Resume.pdf" download={Resume}>
             <button className="border-2 border-black px-4 py-2 md:text-xl text-lg text-black font-semibold hover:bg-white rounded-lg">
               Download Resume
             </button>
+            </a>
           </div>
         </main>
 

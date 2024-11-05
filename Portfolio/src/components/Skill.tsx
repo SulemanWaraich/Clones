@@ -18,10 +18,10 @@ function Skill() {
       <div className="ml-4 w-full">
         <div className="flex justify-between items-center">
           <h3 className="text-lg font-semibold">HTML</h3>
-          <span className="text-gray-600">90%</span>
+          <span className="text-gray-600">100%</span>
         </div>
         <div className="w-full bg-gray-200 rounded-full h-2.5 mt-2">
-          <div className="bg-gradient-to-r from-red-500 to-red-700 h-2.5 rounded-full w-[90%]"></div>
+          <div className="bg-gradient-to-r from-red-500 to-red-700 h-2.5 rounded-full w-[100%]"></div>
         </div>
       </div>
     </div>
@@ -52,10 +52,10 @@ function Skill() {
       <div className="ml-4 w-full">
         <div className="flex justify-between items-center">
           <h3 className="text-lg font-semibold">JavaScript</h3>
-          <span className="text-gray-600">70%</span>
+          <span className="text-gray-600">95%</span>
         </div>
         <div className="w-full bg-gray-200 rounded-full h-2.5 mt-2">
-          <div className="bg-gradient-to-r from-yellow-500 to-yellow-700 h-2.5 rounded-full w-[70%]"></div>
+          <div className="bg-gradient-to-r from-yellow-500 to-yellow-700 h-2.5 rounded-full w-[95%]"></div>
         </div>
       </div>
     </div>
@@ -76,26 +76,42 @@ function Skill() {
       <div className="ml-4 w-full">
         <div className="flex justify-between items-center">
           <h3 className="text-lg font-semibold">Tailwind CSS</h3>
-          <span className="text-gray-600">70%</span>
+          <span className="text-gray-600">90%</span>
         </div>
         <div className="w-full bg-gray-200 rounded-full h-2.5 mt-2">
-          <div className="bg-gradient-to-r from-teal-400 to-teal-600 h-2.5 rounded-full w-[70%]"></div>
+          <div className="bg-gradient-to-r from-teal-400 to-teal-600 h-2.5 rounded-full w-[90%]"></div>
         </div>
       </div>
     </div>
 
     <div className="flex items-center p-4 bg-white rounded-lg shadow-md">
-      <div className="bg-blue-600 p-3 rounded-full">
+      <div className="bg-yellow-600 p-3 rounded-full">
+        {/* <!-- React Icon --> */}
+        <SiBootstrap className="text-white h-10 w-10" /> 
+      </div>
+      <div className="ml-4 w-full">
+        <div className="flex justify-between items-center">
+          <h3 className="text-lg font-semibold">Bootstrap</h3>
+          <span className="text-gray-600">90%</span>
+        </div>
+        <div className="w-full bg-gray-200 rounded-full h-2.5 mt-2">
+          <div className="bg-gradient-to-r from-yellow-600 to-yellow-800 h-2.5 rounded-full w-[90%]"></div>
+        </div>
+      </div>
+    </div>
+
+    <div className="flex items-center p-4 bg-white rounded-lg shadow-md">
+      <div className="bg-indigo-600 p-3 rounded-full">
         {/* <!-- React Icon --> */}
         <FaReact className="text-white h-10 w-10" />
       </div>
       <div className="ml-4 w-full">
         <div className="flex justify-between items-center">
           <h3 className="text-lg font-semibold">React.js</h3>
-          <span className="text-gray-600">80%</span>
+          <span className="text-gray-600">90%</span>
         </div>
         <div className="w-full bg-gray-200 rounded-full h-2.5 mt-2">
-          <div className="bg-gradient-to-r from-blue-600 to-blue-800 h-2.5 rounded-full w-[80%]"></div>
+          <div className="bg-gradient-to-r from-indigo-600 to-indigo-800 h-2.5 rounded-full w-[90%]"></div>
         </div>
       </div>
     </div>
@@ -116,21 +132,7 @@ function Skill() {
       </div>
     </div>
 
-    <div className="flex items-center p-4 bg-white rounded-lg shadow-md">
-      <div className="bg-yellow-600 p-3 rounded-full">
-        {/* <!-- React Icon --> */}
-        <SiBootstrap className="text-white h-10 w-10" /> 
-      </div>
-      <div className="ml-4 w-full">
-        <div className="flex justify-between items-center">
-          <h3 className="text-lg font-semibold">Bootstrap</h3>
-          <span className="text-gray-600">80%</span>
-        </div>
-        <div className="w-full bg-gray-200 rounded-full h-2.5 mt-2">
-          <div className="bg-gradient-to-r from-yellow-600 to-yellow-800 h-2.5 rounded-full w-[80%]"></div>
-        </div>
-      </div>
-    </div>
+   
 
     <div className="flex items-center p-4 bg-white rounded-lg shadow-md">
       <div className="bg-sky-600 p-3 rounded-full">
@@ -140,10 +142,10 @@ function Skill() {
       <div className="ml-4 w-full">
         <div className="flex justify-between items-center">
           <h3 className="text-lg font-semibold">Version Control (GIT)</h3>
-          <span className="text-gray-600">80%</span>
+          <span className="text-gray-600">100%</span>
         </div>
         <div className="w-full bg-gray-200 rounded-full h-2.5 mt-2">
-          <div className="bg-gradient-to-r from-sky-600 to-sky-800 h-2.5 rounded-full w-[80%]"></div>
+          <div className="bg-gradient-to-r from-sky-600 to-sky-800 h-2.5 rounded-full w-[100%]"></div>
         </div>
       </div>
     </div>
