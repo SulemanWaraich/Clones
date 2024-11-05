@@ -25,13 +25,7 @@ function About() {
             <h1>About Me</h1>
           </div>
           <p className="border-l-4 border-sky-400 pl-4">
-            Hi, I’m Muhammad Suleman, a passionate web developer with experience
-            as a project manager and frontend developer primarily focusing on
-            frontend development. I also possess a strong understanding of
-            backend technologies, making me a full-stack developer. I enjoy
-            transforming complex challenges into simple, beautiful, and
-            user-friendly solutions. I’m eager to contribute to innovative
-            projects that create impactful user experiences.
+          Hi, I’m Muhammad Suleman, a front-end developer skilled in building responsive, user-friendly web applications with React, Tailwind CSS, JavaScript, and TypeScript. With experience in dynamic UI development and API integration, I’m dedicated to delivering high-quality user experiences. Known for clear communication and team collaboration, I continuously learn new technologies to write clean, efficient code that meets project goals and deadlines.
           </p>
         </div>
 
@@ -53,13 +47,13 @@ function About() {
           </div>
           <div className="border-l-4 border-sky-400 pl-4">
             <ul className="space-y-6">
-              <div>
-                <p className="font-bold">Bachelor’s Degree in Commerce</p>
-                <span>- Karachi University, 2019</span>
+              <div> 
+                <p className="font-bold">Bachelor of Science in Software Engineering</p>
+                <span>- Karachi University | 2023 - 2027 (Expected)</span>
                 </div>    
               <div>
-              <p className="font-bold">Full Stack Development Course </p>
-              <span>- Aptech, Ongoing</span>
+              <p className="font-bold">Full Stack Development Cohort </p>
+              <span>- Harkirat’s Cohort | Started February 2024</span>
                 </div>    
             </ul>
           </div>
@@ -89,22 +83,20 @@ function About() {
           <div className="border-l-4 border-sky-400 pl-4 space-y-4">
             <div>
             <h2 className="font-bold text-xl">
-              Project Manager
+              Instructor
             </h2>
-            <p>January 2022 - Present</p>
+            <p>Aptech | February 2024 – Present</p>
             </div>
             
             <ul className="list-disc pl-5">
               <li>
-                Led project teams in building and optimizing complex websites.
+              Taught front-end and full-stack development topics, focusing on React, JavaScript, and UI design.
               </li>
               <li>
-                Coordinated with design teams to deliver interactive and
-                user-centric UI components.
+              Guided students in building responsive, user-centered applications.
               </li>
               <li>
-                Managed timelines and resources to ensure project delivery
-                within deadlines.
+              Provided hands-on instruction and mentorship, fostering student growth and understanding of industry practices.
               </li>
             </ul>
           </div>
@@ -114,11 +106,11 @@ function About() {
             <h2 className="font-bold">
               Font-End Developer Intern
             </h2>
-            <p>January 2022 - May 2023</p>
+            <p>April 2024 - July 2024</p>
             </div>
 
             <ul className="list-disc pl-5">
-              <li>Assisted in creating and optimizing website components.</li>
+              <li>Contributed to the development of responsive and dynamic website components using React and JavaScript.</li>
               <li>
                 Collaborated with designers to implement interactive UI
                 features.
