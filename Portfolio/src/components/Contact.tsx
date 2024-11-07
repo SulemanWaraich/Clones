@@ -1,4 +1,4 @@
-import emailjs from '@emailjs/browser';import { FormEvent, useState } from 'react';
+import emailjs from '@emailjs/browser';
 import { SubmitHandler, useForm } from 'react-hook-form';
 
 type FormData = {
